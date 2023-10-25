@@ -1,0 +1,45 @@
+    1  cd ~
+    2  mkdir examen372
+    3  cd examen372
+    4  echo "#! /bin/bash" > create.sh
+    5  git init
+    6  git status
+    7  git add create.sh
+    8  git commit -m "Initial commit, scrip added0"
+    9  code create.sh
+   10  ./create.sh
+   11  cmd //c tree //F ./
+   12  ./create.sh
+   13  cmd //c tree //F ./
+   14  git status
+   15  git add create.sh
+   16  git webapp
+   17  git add webapp
+   18  git commit - m "Second commit, structure created"
+   19  ./create.sh
+   20  cmd //c tree //F ./
+   21  ./create.sh
+   22  cmd //c tree //F ./
+   23  cd C:\Users\mrpoo\OneDrive\Escritorio\Examen
+   24  cd C:\Users\mrpoo\OneDrive\Escritorio\Examen\
+   25  cd C:\Users\mrpoo\OneDrive\Escritorio\Examen\
+   26  cd ..
+   27  pwd
+   28  cd OneDrive/Escritorio/Examen
+   29  ls
+   30  mv examen372.md C:\Users\mrpoo\examen372
+   31  ls
+   32  mv C\:Usersmrpooexamen372 examen372.md
+   33  ls
+   34  mv examen372.md /c/Users/mrpoo/examen372/
+   35  ls
+   36  cd /c/Users/mrpoo/examen372/
+   37  ls
+   38  code examen372.md
+   39  mv examen372.md README.md
+   40  ls
+   41  code README.md
+   42  git add create.sh
+   43  git add README.md
+   44  git commit -m "Third commit, add README.md and final script updated"
+   45  history > history.txt
